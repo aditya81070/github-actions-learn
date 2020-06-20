@@ -2,12 +2,10 @@
  * returns the sum of two numbers
  * @param a number
  * @param b number
+ * @param isSubtract
  * @returns number
  */
-const sum = (a = 0, b = 0) => a + b;
-
-// TODO: fix the bugs
-const subtract = (a, b) => a + b;
+const sum = (a = 0, b = 0, isSubtract = false) => (isSubtract ? a - b : a + b);
 
 // TODO: add new feature for multiplication
 
@@ -20,5 +18,4 @@ const multiply = (a, b) => a * b;
 const divide = (a, b) => (b === 0 ? undefined : a / b);
 module.exports = sum;
 
-module.exports.subtract = subtract;
 module.exports.divide = divide;
