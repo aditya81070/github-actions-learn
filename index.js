@@ -11,7 +11,7 @@ const subtract = (a, b) => a + b;
 
 // TODO: add new feature for multiplication
 
-//const multiply = (a,b) => a*b;
+const multiply = (a, b) => a * b;
 
 // TODO: breaking change - remove subtract function and use third argument in sum function
 
