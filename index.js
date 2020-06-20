@@ -17,6 +17,8 @@ const multiply = (a, b) => a * b;
 
 // const sum = (a= 0, b = 0, isSubtract) => isSubtract ? a - b: a + b;
 
+const divide = (a, b) => (b === 0 ? undefined : a / b);
 module.exports = sum;
 
 module.exports.subtract = subtract;
+module.exports.divide = divide;
